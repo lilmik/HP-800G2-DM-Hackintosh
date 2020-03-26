@@ -1,0 +1,82 @@
+268:080  1:199  Found UEFI Acpi 2.0 RSDP at C3EFE014
+268:080  0:000  Saving ACPI tables from RSDP C3EFE014 to EFI\CLOVER\ACPI\origin ...
+268:080  0:000   C3EFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+268:090  0:010    (Xsdt: C3EFD0E8, Rsdt: C3EFD074)
+268:090  0:000    C3EFD0E8: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 172 -> XSDT.aml
+268:098  0:007    C3EFD074: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 104 -> RSDT.aml
+268:106  0:007    Tables in Xsdt: 17
+268:106  0:000    0. C3EF1000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244 -> FACP.aml
+268:113  0:007        (Dsdt: C3ECF000, Facs: C3E6C000, XDsdt: C3ECF000, XFacs: 0)
+268:113  0:000        C3ECF000: 'DSDT', '8055', Rev: 2, Len: 126417 -> DSDT.aml
+268:128  0:014        C3E6C000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+268:136  0:007    1. C3EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264 -> SSDT-0-ShmTable.aml
+268:144  0:007    2. C3E7B000: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+268:152  0:007    3. C3EF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986 -> SSDT-1-SaSsdt.aml
+268:164  0:011    4. C3EF5000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457 -> SSDT-2-PerfTune.aml
+268:172  0:008    5. C3EF4000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.aml
+268:181  0:008    6. C3EF3000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374 -> SLIC.aml
+268:190  0:008    7. C3EF2000: 'WSMT', '8055', Rev: 1, Len: 40 -> WSMT.aml
+268:198  0:008    8. C3EF0000: 'HPET', '8055', Rev: 1, Len: 56 -> HPET.aml
+268:207  0:008    9. C3EEF000: 'APIC', '8055', Rev: 1, Len: 188 -> APIC.aml
+268:215  0:008    10. C3EEE000: 'MCFG', '8055', Rev: 1, Len: 60 -> MCFG.aml
+268:224  0:008    11. C3ECE000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410 -> SSDT-3-Sata0Ide.aml
+268:232  0:008    12. C3ECD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833 -> SSDT-4-PtidDevc.aml
+268:241  0:008    13. C3ECC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+268:251  0:009        * C39C3618: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1467  53 53 44 54 BB 05 00 00 02 13 50 6D 52 65 66 00 Internal length = 1467 -> SSDT-x5_0-Cpu0Ist.aml
+268:259  0:008        * C39C3018: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 C2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x5_1-ApIst.aml
+268:267  0:008        * C39C3C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 59 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x5_2-Cpu0Cst.aml
+268:275  0:008        * C3C17C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 DE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x5_3-ApCst.aml
+268:283  0:008        * B5558218: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 1F 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x5_4-Cpu0Hwp.aml
+268:293  0:009        * B55E4618: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x5_5-ApHwp.aml
+268:301  0:008        * B55E4498: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 79 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x5_6-HwpLvt.aml
+268:310  0:008  
+268:310  0:000    14. C3ECB000: 'ASF!', ' UYA', Rev: 32, Len: 165 -> ASF!.aml
+268:318  0:008    15. C3ECA000: 'FPDT', 'EDK2', Rev: 1, Len: 68 -> FPDT.aml
+268:326  0:008    16. C3EC9000: 'BGRT', 'EDK2', Rev: 1, Len: 56 -> BGRT.aml
+268:334  0:008    Tables in Rsdt: 17
+268:334  0:000    0. C3EF1000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+268:334  0:000        (Dsdt: C3ECF000, Facs: C3E6C000, XDsdt: C3ECF000, XFacs: 0)
+268:334  0:000        C3ECF000: 'DSDT', '8055', Rev: 2, Len: 126417
+268:336  0:001        C3E6C000: 'FACS', Ver: 1, Len: 64
+268:336  0:000    1. C3EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+268:336  0:000    2. C3E7B000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+268:336  0:000    3. C3EF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+268:336  0:000    4. C3EF5000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+268:336  0:000    5. C3EF4000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+268:336  0:000    6. C3EF3000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+268:336  0:000    7. C3EF2000: 'WSMT', '8055', Rev: 1, Len: 40
+268:336  0:000    8. C3EF0000: 'HPET', '8055', Rev: 1, Len: 56
+268:336  0:000    9. C3EEF000: 'APIC', '8055', Rev: 1, Len: 188
+268:336  0:000    10. C3EEE000: 'MCFG', '8055', Rev: 1, Len: 60
+268:336  0:000    11. C3ECE000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+268:336  0:000    12. C3ECD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+268:336  0:000    13. C3ECC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+268:336  0:000    14. C3ECB000: 'ASF!', ' UYA', Rev: 32, Len: 165
+268:336  0:000    15. C3ECA000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+268:336  0:000    16. C3EC9000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+268:336  0:000  Found UEFI Acpi 1.0 RSDP at C3EFE000
+268:336  0:000  Printing ACPI tables from RSDP C3EFE000 ...
+268:336  0:000   C3EFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+268:336  0:000    (Rsdt: C3EFD000)
+268:336  0:000    C3EFD000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 104
+268:336  0:000    Tables in Rsdt: 17
+268:336  0:000    0. C3EF1000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 244
+268:336  0:000        (Dsdt: C3ECF000, Facs: C3E6C000, XDsdt: C3ECF000, XFacs: 0)
+268:336  0:000        C3ECF000: 'DSDT', '8055', Rev: 2, Len: 126417
+268:338  0:001        C3E6C000: 'FACS', Ver: 1, Len: 64
+268:338  0:000    1. C3EFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 264
+268:338  0:000    2. C3E7B000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+268:338  0:000    3. C3EF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 20986
+268:338  0:000    4. C3EF5000: 'SSDT', 'PerfTune', Rev: 1, Len: 1457
+268:338  0:000    5. C3EF4000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+268:338  0:000    6. C3EF3000: 'SLIC', 'SLIC-BPC', Rev: 1, Len: 374
+268:338  0:000    7. C3EF2000: 'WSMT', '8055', Rev: 1, Len: 40
+268:338  0:000    8. C3EF0000: 'HPET', '8055', Rev: 1, Len: 56
+268:338  0:000    9. C3EEF000: 'APIC', '8055', Rev: 1, Len: 188
+268:338  0:000    10. C3EEE000: 'MCFG', '8055', Rev: 1, Len: 60
+268:338  0:000    11. C3ECE000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+268:338  0:000    12. C3ECD000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1833
+268:338  0:000    13. C3ECC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+268:338  0:000    14. C3ECB000: 'ASF!', ' UYA', Rev: 32, Len: 165
+268:338  0:000    15. C3ECA000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+268:338  0:000    16. C3EC9000: 'BGRT', 'EDK2', Rev: 1, Len: 56
