@@ -11,8 +11,8 @@
 ## 本机硬件
 - CPU: intel i5-6500T
 - 内存: Crucial 8GB x 2
-- 硬盘: 1. M.2 512G WD SSD; 2. SATA 512 Acer SSD
-- 网卡/蓝牙：添加BCM94352z(DW1560)
+- 硬盘: 1. M.2 512G WD SSD; 2. SATA 512G Acer SSD
+- 网卡/蓝牙：添加BCM94352Z(DW1560)
 - 显卡：HD530,无独显
 ## 哪些可以用？
 - [x] CPU变频
