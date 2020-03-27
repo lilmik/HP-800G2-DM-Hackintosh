@@ -12,8 +12,11 @@
 - CPU: intel i5-6500T
 - 内存: Crucial 8GB x 2
 - 硬盘: 1. M.2 512G WD SSD; 2. SATA 512G Acer SSD
-- 网卡/蓝牙：添加BCM94352Z(DW1560)
-- 显卡：HD530,无独显
+- 网卡/蓝牙: 添加BCM94352Z(DW1560)
+- 显卡: HD530,无独显
+## 用前准备
+- BIOS版本:  
+- BIOS设置: 参照黑果小兵博客或者Tonymac x86的通用设置就可以,无需特殊设置
 ## 哪些可以用？
 - [x] CPU变频
 - [x] 显卡硬件加速(QE/CI)
