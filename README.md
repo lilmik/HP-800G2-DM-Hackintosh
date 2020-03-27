@@ -1,6 +1,5 @@
 # 惠普HP EliteDesk 800 G2 mini 黑苹果相关文件
 ## 简介 
-![截图](screenshot/S4000VA.jpg)
 这是惠普HP EliteDesk 800 G2 mini的黑苹果相关文件,这套配置我仅在苹果10.15.4(macOS Catalina)上测试基本完美.
 
 :warning: :warning: :warning: 
